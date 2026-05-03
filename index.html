@@ -1,28 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Balavignesh</title>
-    <style>
-        body {
-            font-family: Arial;
-            text-align: center;
-            padding: 50px;
-            background: #f5f5f5;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Balavignesh Muthukaruppan</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+body { margin:0; font-family:'Poppins',sans-serif; background:#0f172a; color:#e2e8f0; }
+nav { display:flex; justify-content:center; gap:30px; padding:20px; background:#020617; position:sticky; top:0; z-index:1000; }
+nav a { color:#38bdf8; text-decoration:none; font-weight:500; }
+section { padding:80px 20px; max-width:1000px; margin:auto; }
+h1,h2 { text-align:center; }
+.hero { text-align:center; padding:120px 20px; }
+.btn { display:inline-block; margin-top:20px; padding:10px 20px; border-radius:8px; background:#38bdf8; color:#020617; text-decoration:none; font-weight:600; }
+.card { background:#1e293b; padding:20px; border-radius:12px; margin-bottom:20px; transition:0.3s; }
+.card:hover { transform:translateY(-5px); }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+.gallery img { width:100%; border-radius:12px; transition:0.3s; }
+.gallery img:hover { transform:scale(1.05); }
+.footer { text-align:center; padding:20px; background:#020617; margin-top:40px; }
+</style>
 </head>
 <body>
 
-    <h1>Hi, I'm Balavignesh 👋</h1>
-    <p>Enterprise Architect | Data | AI Enthusiast</p>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#ai">AI Work</a>
+<a href="#projects">Projects</a>
+<a href="#hobby">Hobby</a>
+<a href="#contact">Contact</a>
+</nav>
 
-    <p>I build solutions, explore AI, and create things.</p>
+<div class="hero" id="home">
+<h1>Balavignesh Muthukaruppan</h1>
+<p>Lead AI Architect | Enterprise Architect | Artist</p>
+<a class="btn" href="#projects">View My Work</a>
+</div>
+
+<section id="about">
+<h2>About Me</h2>
+<p>I’m an IT professional, artist, and photographer driven by curiosity and a passion for solving problems.</p>
+<p>From TCS to Verint and now Lead AI Architect at CSC Global, my journey has been about building solutions, improving systems, and driving impact.</p>
+<p>I specialize in AI-driven solutions, automation, and operational excellence.</p>
+</section>
+
+<section id="ai">
+<h2>AI Work</h2>
+<div class="grid">
+<div class="card">
+<h3>AI Chatbot Systems</h3>
+<p>Designing intelligent conversational systems using modern AI frameworks.</p>
+</div>
+<div class="card">
+<h3>Process Automation</h3>
+<p>Building AI-powered automation to reduce manual effort and increase efficiency.</p>
+</div>
+<div class="card">
+<h3>AI Architecture</h3>
+<p>Designing scalable AI systems for enterprise use cases.</p>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="card">
+<h3>My GitHub Work</h3>
+<p>Explore my complete set of projects, experiments, and code repositories.</p>
+<a class="btn" href="https://github.com/yourusername" target="_blank">View GitHub</a>
+</div>
+</section>
+
+<section id="hobby">
+<h2>Instagram Preview</h2>
+<p style="text-align:center;">A glimpse into my creative side</p>
+<div class="grid gallery">
+<img src="https://via.placeholder.com/400" alt="insta1">
+<img src="https://via.placeholder.com/400" alt="insta2">
+<img src="https://via.placeholder.com/400" alt="insta3">
+<img src="https://via.placeholder.com/400" alt="insta4">
+<img src="https://via.placeholder.com/400" alt="insta5">
+<img src="https://via.placeholder.com/400" alt="insta6">
+</div>
+<div style="text-align:center;">
+<a class="btn" href="https://instagram.com/_mbalavignesh" target="_blank">View Full Instagram</a>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: your-email@example.com</p>
+<p>GitHub: https://github.com/yourusername</p>
+</section>
+
+<div class="footer">
+<p>© 2026 Balavignesh</p>
+</div>
 
 </body>
 </html>
